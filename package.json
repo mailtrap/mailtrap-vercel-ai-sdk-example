@@ -1,0 +1,39 @@
+{
+  "name": "mailtrap-vercel-ai-sdk-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mailtrap Email API as a Vercel AI SDK tool() — Next.js example",
+  "license": "MIT",
+  "author": "Railsware Products Studio LLC",
+  "homepage": "https://mailtrap.io",
+  "repository": "https://github.com/mailtrap/mailtrap-vercel-ai-sdk-example",
+  "bugs": "https://github.com/mailtrap/mailtrap-vercel-ai-sdk-example/issues",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:tsc": "tsc -p . --noEmit --incremental false",
+    "test:tool": "tsx scripts/testTool.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.0",
+    "ai": "^5.0.0",
+    "mailtrap": "^4.4.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.6",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  },
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319"
+}
